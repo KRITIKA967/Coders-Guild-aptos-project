@@ -1,0 +1,15 @@
+[package]
+name = "my_payment_project"
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+MoveStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib", rev = "main" }
+
+[addresses]
+payment_addr = "0xfdc91c7ebac9f4907922567096a2ad56bc709c0784281909997253ad03676d4e"
+
+[dev-addresses]
+default = "0xfdc91c7ebac9f4907922567096a2ad56bc709c0784281909997253ad03676d4e"
+admin = "0xcafebabe12345678" # actual another welldone wallet address will use.
