@@ -1,9 +1,9 @@
 [package]
-name = "Example"
+name = "Simple_Payment_System"
 version = "0.0.0"
 
 [addresses]
-hello_blockchain = "0x686862cb7ea5f52949150d60498bc3293e3867823e967c2ba4d702d0f9224f4c"
+hello_blockchain = "0xfdc91c7ebac9f4907922567096a2ad56bc709c0784281909997253ad03676d4e"
 
 [dependencies]
 AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "testnet" }
